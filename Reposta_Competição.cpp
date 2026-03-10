@@ -65,7 +65,6 @@ int main() {
         
         cout << "\n--- Resultado ---\n";
         for (int i = 0; i < tamanho; i++) {
-            // Imprime: "4 -> Certo", "7 -> Posicao Errada", etc.
             cout << seus_valor[i] << " -> " << relatorio_visual[i] << "\n";
         }
         
@@ -84,4 +83,5 @@ void embaralhar(int *array, int n) {
             array[j] = t;
         }
     }
+
 }
